@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/giftech/giftedcpanel/home/giftedmdqr/public_html/
+    - /bin/cp -R images $DEPLOYPATH
+    
+
+

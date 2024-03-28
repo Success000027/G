@@ -1,0 +1,24 @@
+{
+    "name": "gifted-md-qr",
+    "description": "I am Gifted-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t In case of Any Problem : www.youtube.com/giftedtechnexus",
+    "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
+    "repository": "https://github.com/Giftedmaurice/gifted-md-qr",
+    "keywords": ["whatsappbot", "giftedMd", "gifted Md bot", "Gifted-Md", "GiftedMdWhatsaooBot", "GiftedWaBot","GiftedMD","Gifted Md Whatsapp Bot","multi device"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": true 
+      },
+      "MESSAGE": {
+        "description": "Your Session ID Conformation Message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
+
+
